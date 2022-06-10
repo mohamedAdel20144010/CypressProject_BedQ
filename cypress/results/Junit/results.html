@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-06-09T19:49:01" tests="0" file="cypress\e2e\BedQLoginTest.cy.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="BedQuarter Login test Suit" timestamp="2022-06-09T19:49:01" tests="3" time="33.2530" failures="1">
+  
+  <testcase name="BedQuarter Login test Suit verify response while entering invalid credintials" time="0.0000" classname="verify response while entering invalid credintials">
+    
+    <failure message="`cy.visit()` failed trying to load:
+
+https://bedquarter.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: connect ETIMEDOUT 15.184.76.131:443
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://bedquarter.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ETIMEDOUT 15.184.76.131:443
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at http://localhost:60955/__cypress/runner/cypress_runner.js:156638:82
+    at visitFailedByErr (http://localhost:60955/__cypress/runner/cypress_runner.js:155942:12)
+    at http://localhost:60955/__cypress/runner/cypress_runner.js:156637:11
+    at tryCatcher (http://localhost:60955/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (http://localhost:60955/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (http://localhost:60955/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (http://localhost:60955/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (http://localhost:60955/__cypress/runner/cypress_runner.js:11125:18)
+    at _drainQueueStep (http://localhost:60955/__cypress/runner/cypress_runner.js:7719:12)
+    at _drainQueue (http://localhost:60955/__cypress/runner/cypress_runner.js:7712:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60955/__cypress/runner/cypress_runner.js:7728:5)
+    at Async.drainQueues (http://localhost:60955/__cypress/runner/cypress_runner.js:7598:14)
+From Your Spec Code:
+    at HomePage.URL (http://localhost:60955/__cypress/tests?p=cypress\e2e\BedQLoginTest.cy.js:147:8)
+    at Context.eval (http://localhost:60955/__cypress/tests?p=cypress\e2e\BedQLoginTest.cy.js:108:23)
+
+From Node.js Internals:
+  Error: connect ETIMEDOUT 15.184.76.131:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-06-09T19:49:41" tests="0" file="cypress\e2e\BedQ_AddToCart_Test.cy.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Check Product" timestamp="2022-06-09T19:49:41" tests="3" time="0.0030" failures="0"></testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-06-09T19:49:43" tests="0" file="cypress\e2e\BedQ_ValidateProductRate.cy.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Customer Rate Validation" timestamp="2022-06-09T19:49:43" tests="4" time="0.0050" failures="0"></testsuite>
+
+</testsuites>

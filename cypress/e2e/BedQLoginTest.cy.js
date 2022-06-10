@@ -22,14 +22,14 @@ describe('BedQuarter Login test Suit', () =>
 
   })
 
-  it('Verify response while entering invalid mail format', () => {
+  it.skip('Verify response while entering invalid mail format', () => {
 
     ClickOn.MyAccountURL()
     Verify.EnterInvalidMailFormat()
     
   })
 
-  it('Verify response while entering valid credintials', () => {
+  it.skip('Verify response while entering valid credintials', () => {
 
     ClickOn.MyAccountURL()
     Verify.EnteringValidCredintials()

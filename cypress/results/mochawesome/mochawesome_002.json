@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 4,
+    "failures": -3,
+    "start": "2022-06-09T19:49:43.903Z",
+    "end": "2022-06-09T19:49:43.934Z",
+    "duration": 31,
+    "testsRegistered": 4,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 3,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b2f9a068-b354-4c68-a7f9-edb019d02d61",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BedQ_ValidateProductRate.cy.js",
+      "file": "cypress\\e2e\\BedQ_ValidateProductRate.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "40c1d342-736d-4a6f-af83-ce1c43baf57f",
+          "title": "Customer Rate Validation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Positive - Verify response while fill all fields and click on submit",
+              "fullTitle": "Customer Rate Validation Positive - Verify response while fill all fields and click on submit",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "70a28f3e-a31f-401f-a2e1-e621ab88cb1b",
+              "parentUUID": "40c1d342-736d-4a6f-af83-ce1c43baf57f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Negative - Verify response while leave Rate section Empty and submit",
+              "fullTitle": "Customer Rate Validation Negative - Verify response while leave Rate section Empty and submit",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "749dd3e2-c71d-4073-98e0-4dc77d443fb1",
+              "parentUUID": "40c1d342-736d-4a6f-af83-ce1c43baf57f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Negative - Verify response while leave (Nickname) field empty and submit",
+              "fullTitle": "Customer Rate Validation Negative - Verify response while leave (Nickname) field empty and submit",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0a8a3957-e1c6-4596-8085-daa135d739a8",
+              "parentUUID": "40c1d342-736d-4a6f-af83-ce1c43baf57f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Negative - Verify response while leave (Summary) field empty and submit",
+              "fullTitle": "Customer Rate Validation Negative - Verify response while leave (Summary) field empty and submit",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "15652bf3-a9ad-4d1f-9d82-1eacbff5bff0",
+              "parentUUID": "40c1d342-736d-4a6f-af83-ce1c43baf57f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "70a28f3e-a31f-401f-a2e1-e621ab88cb1b",
+            "749dd3e2-c71d-4073-98e0-4dc77d443fb1",
+            "0a8a3957-e1c6-4596-8085-daa135d739a8",
+            "15652bf3-a9ad-4d1f-9d82-1eacbff5bff0"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

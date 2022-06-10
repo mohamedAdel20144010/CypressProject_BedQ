@@ -5,17 +5,17 @@ import { ProductDetails } from "../support/Pages/ProductPage"
 
 describe('Check Product',()=> {
 
-    it('Open Product Details', ()=> {
+    it.skip('Open Product Details', ()=> {
        ClickOn.URL()
         ProductDetails.ClickonProduct()
     })
 
-    it('verify resposne while entering invalid quntity', ()=> {
+    it.skip('verify resposne while entering invalid quntity', ()=> {
         ProductDetails.ChangeQuantity('0')
         ProductDetails.ErrorMsgValidation()
     })
 
-    it('verify response while enter valid quntity', () => {
+    it.skip('verify response while enter valid quntity', () => {
         ProductDetails.ChangeQuantity('3')
        
         ProductDetails.SuccessMsgvalidation()
