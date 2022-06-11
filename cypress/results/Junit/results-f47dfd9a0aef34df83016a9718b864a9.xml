@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0410" tests="3" failures="0" skipped="3">
-  <testsuite name="Root Suite" timestamp="2022-06-09T19:49:41" tests="0" file="cypress\e2e\BedQ_AddToCart_Test.cy.js" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="Check Product" timestamp="2022-06-09T19:49:41" tests="3" time="0.0030" failures="0">
-  </testsuite>
-</testsuites>

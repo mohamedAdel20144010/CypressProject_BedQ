@@ -9,10 +9,16 @@
     "prereport": "npm run delete:reports",
     "report": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
     "postreport": "npm run combine:reports",
-    "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.xml",
-    "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
+    "mochawesome:merge":"npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.xml",
+    "generatereport" :"npx cypress run --reporter cypress-multi-reporters \\ --reporter-options configFile=reporter-config.json",
+    "junit:merge":"npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "cypress:run": "npx cypress run && npm run junit:merge",
     "cypress:e2e": "cypress:run"
+    ,"test":"npx cypress run",
+    "Test2":"node_modules\\.bin\\cypress run --record --key da9b6262-8461-491c-a9c6-601672e635a4"
+
+
+    
   },
   "author": "Adel",
   "license": "ISC",

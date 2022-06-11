@@ -2,10 +2,14 @@
  
   const { defineConfig } = require("cypress");
 
+
+  
   module.exports = defineConfig({
+    projectId: 'vkipne',
     reporter: 'cypress-multi-reporters',
     reporterOptions: {
       configFile: 'reporter-config.json'
+      
     }
   })
   
@@ -22,4 +26,4 @@ module.exports = defineConfig({
     },
   },
 });
-}
+  }

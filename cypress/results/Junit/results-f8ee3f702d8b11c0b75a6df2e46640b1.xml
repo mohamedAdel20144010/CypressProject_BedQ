@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0310" tests="4" failures="0" skipped="4">
-  <testsuite name="Root Suite" timestamp="2022-06-09T19:49:43" tests="0" file="cypress\e2e\BedQ_ValidateProductRate.cy.js" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="Customer Rate Validation" timestamp="2022-06-09T19:49:43" tests="4" time="0.0050" failures="0">
-  </testsuite>
-</testsuites>

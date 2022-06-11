@@ -1,0 +1,1 @@
+npx cypress run --reporter cypress-multi-reporters \ --reporter-options configFile=reporter-config.json ;; npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml
